@@ -58,3 +58,4 @@ class PrototypesController < ApplicationController
     redirect_to root_path unless current_user == @prototype.user
   end
 end
+
